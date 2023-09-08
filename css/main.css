@@ -1163,8 +1163,13 @@ pre code {
 }
 .site-author-image {
   border: 1px solid #eee;
+  border-radius: 50%;
+  transition: 2s all;
   max-width: 120px;
   padding: 2px;
+}
+.site-author-image:hover {
+  transform: rotate(360deg);
 }
 .site-author-name {
   color: var(--text-color);
